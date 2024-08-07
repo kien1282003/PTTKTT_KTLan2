@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CFE1A2E1-93B2-4A19-B5F3-DE8C120395D1}</ProjectGuid>
+    <ProjectGuid>{8CA54A1A-1F8B-4E61-85CF-D46DCF2F9E60}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Cau_2</RootNamespace>
-    <AssemblyName>Cau 2</AssemblyName>
+    <RootNamespace>Cau_3</RootNamespace>
+    <AssemblyName>Cau 3</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuickSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
