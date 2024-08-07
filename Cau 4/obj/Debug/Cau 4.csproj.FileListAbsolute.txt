@@ -1,0 +1,7 @@
+C:\PTTKTT_KTLan2\20_2033211363_NguyenTrungKien\Cau 4\bin\Debug\Cau 4.exe.config
+C:\PTTKTT_KTLan2\20_2033211363_NguyenTrungKien\Cau 4\bin\Debug\Cau 4.exe
+C:\PTTKTT_KTLan2\20_2033211363_NguyenTrungKien\Cau 4\bin\Debug\Cau 4.pdb
+C:\PTTKTT_KTLan2\20_2033211363_NguyenTrungKien\Cau 4\obj\Debug\Cau 4.csproj.AssemblyReference.cache
+C:\PTTKTT_KTLan2\20_2033211363_NguyenTrungKien\Cau 4\obj\Debug\Cau 4.csproj.CoreCompileInputs.cache
+C:\PTTKTT_KTLan2\20_2033211363_NguyenTrungKien\Cau 4\obj\Debug\Cau 4.exe
+C:\PTTKTT_KTLan2\20_2033211363_NguyenTrungKien\Cau 4\obj\Debug\Cau 4.pdb
