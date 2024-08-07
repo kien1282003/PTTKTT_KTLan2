@@ -1,0 +1,42 @@
+public int BinarySearchKhongDeQuy(int[] array, int target)
+{
+    int low = 0;
+    int high = array.Length - 1;
+
+    while (low <= high)
+    {
+        int mid = low + (high - low) / 2;
+
+        if (array[mid] == target)
+        {
+            return mid; // Tìm thấy phần tử
+        }
+        else if (array[mid] < target)
+        {
+            low = mid + 1; // Tìm kiếm trong nửa mảng bên phải
+        }
+        else
+        {
+            high = mid - 1; // Tìm kiếm trong nửa mảng bên trái
+        }
+    }
+
+    return -1; // Không tìm thấy phần tử
+}
+
+Số lần lặp:
+	Mỗi lần lặp, mảng được chia đôi:
+		Nếu giá trị ở giữa (array[mid]) không phải là giá trị cần tìm (target), thì hàm sẽ chỉ tìm kiếm trong nửa mảng còn lại.
+	Do đó, mỗi lần lặp, kích thước mảng giảm một nửa.
+
+Số lần chia đôi:
+	Ban đầu, kích thước mảng là n (độ dài của mảng).
+	Sau lần chia đôi đầu tiên, kích thước còn 𝑛/2.
+	Sau lần chia đôi thứ hai, kích thước còn 𝑛/4.
+	Và tiếp tục như vậy cho đến khi kích thước mảng còn 1.
+	Số lần chia đôi để từ n giảm xuống 1 là log2(n)
+
+Độ phức tạp thời gian:
+	Vì mỗi lần lặp của vòng lặp while làm giảm kích thước mảng đi một nửa, số lần lặp của vòng lặp là O(log2(n)).
+	Các thao tác bên trong vòng lặp (như tính toán mid, so sánh và cập nhật low hoặc high) đều có độ phức tạp thời gian là O(1).
+	Độ phức tạp thời gian của hàm BinarySearchKhongDeQuy() là O(log2(n))
